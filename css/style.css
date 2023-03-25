@@ -1,0 +1,388 @@
+.sec1 {
+  background-size: cover;
+
+  object-fit: 16 9;
+  position: relative;
+  background: url("../images/bg.jpg");
+
+  width: 1920px;
+  height: 891px;
+  left: 0px;
+  top: 0px;
+}
+.sec1 .header .inner-wrap {
+  position: sticky;
+}
+.sec1 .header {
+  background-image: linear-gradient(180deg, #000000d7, #ffffff28);
+  width: 100%;
+  height: 100px;
+}
+.sec1 .header .inner-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 120px;
+  text-align: center;
+}
+.sec1 .header .inner-wrap .inner-logo {
+  display: flex;
+  margin: 8px 0;
+  justify-content: center;
+  align-items: center;
+}
+.sec1 .header .inner-wrap .inner-logo a {
+  color: white;
+  font-size: 40px;
+
+  text-decoration: none;
+}
+.sec1 .header .inner-wrap .inner-logo span {
+  color: var(--color-text);
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.sec1 .inner-wrap .inner-menu ul {
+  display: flex;
+  list-style: none;
+  margin-right: 500px;
+}
+.sec1 .inner-wrap .inner-menu ul li {
+  font-weight: 600;
+  margin-right: 60px;
+
+  font-size: 30px;
+}
+.sec1 .inner-wrap .inner-menu ul li a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+.sec1 .inner-wrap .inner-account {
+  display: flex;
+}
+.sec1 .inner-wrap .inner-account ul {
+  display: flex;
+  list-style: none;
+}
+.sec1 .inner-wrap .inner-account ul li {
+  margin: 0 20px;
+  margin-right: 10px;
+  font-size: 30px;
+}
+.sec1 .inner-wrap .inner-account .inner-infor {
+  display: flex;
+  margin: 0 15px;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.sec1 .inner-wrap .inner-account ul li {
+  color: white;
+  background-color: #93949360;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+.sec1 .inner-wrap .inner-account .inner-infor .avatar {
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  height: 40px;
+  color: var(--color-text);
+  background-color: var(--bg-1);
+  border-radius: 50%;
+}
+.sec1 .inner-wrap .inner-account .inner-infor .avatar::before {
+  border-radius: 50%;
+  background-color: aqua;
+  width: 50px;
+  height: 100px;
+}
+.sec1 .inner-wrap .inner-account .inner-infor .name,
+.money {
+  color: var(--color-text);
+  margin: 0 0;
+}
+.sec1 .game {
+  position: absolute;
+  top: 75%;
+  left: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.sec1 .game .game2 ul {
+  display: flex;
+}
+.sec1 .game .game2 ul li {
+  margin-right: 20px;
+}
+.sec1 .game .game2 {
+  padding-right: 500px;
+}
+.sec1 .game .game2 img {
+  border-radius: 20px;
+}
+.sec1 .game .game1 {
+  width: 30%;
+}
+.sec1 .game .game2 {
+  width: 70%;
+}
+.sec1 .game .game1 {
+  display: flex;
+  position: relative;
+  top: 20px;
+  flex-wrap: wrap;
+}
+.sec1 .game .game1 h2,
+button {
+  width: 100%;
+  font-size: 20px;
+}
+.sec1 .game .game1 h2 {
+  margin: 0 0;
+  font-size: 45px;
+  width: 100%;
+  color: white;
+  font-weight: 400;
+}
+.sec1 .game .game1 button:hover {
+  color: black;
+  background-color: aliceblue;
+}
+.sec1 .game .game1 button {
+  margin-top: -30px;
+  height: 50px;
+  width: 200px;
+  text-decoration: none;
+  border: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.363);
+}
+.sec1 .game .game1 button {
+  text-decoration: none;
+  font-size: 30px;
+  color: #fafafa;
+}
+.sec2 .container {
+  padding: 0 120px;
+}
+.sec2 {
+  margin-top: 120px;
+}
+.sec2 .container .special-offer {
+  display: flex;
+  flex-direction: column;
+}
+.sec2 .container .special-offer h2 {
+  font-size: 64px;
+  color: white;
+  font-weight: 400;
+}
+.sec2 .container .special-offer ul {
+  display: flex;
+  padding: 0 0;
+  list-style: none;
+}
+.sec2 .container .special-offer ul li img {
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.recommendation .container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 120px;
+}
+.recommendation .container h1 {
+  font-size: 64px;
+  color: white;
+  margin: 0 0;
+  font-weight: 400;
+}
+.recommendation .container .filter ul {
+  display: flex;
+  list-style: none;
+  padding: 0 0;
+  margin: 30px 0;
+
+  width: 100%;
+}
+.recommendation .container .filter {
+  position: relative;
+}
+.recommendation .container .filter ul li {
+  background-color: rgba(0, 0, 0, 0.205);
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.recommendation .container .filter ul li:first-child {
+  background-color: rgba(255, 255, 255, 0.288);
+}
+.recommendation .container .filter ul li:last-child {
+  background-color: rgba(103, 103, 231, 0.116);
+  position: absolute;
+  left: 90%;
+}
+.recommendation .container .list .first {
+  display: flex;
+  margin: 30px 0;
+}
+.recommendation .container .list .first img {
+  border-radius: 20px 0px 0px 20px;
+}
+.recommendation .container .list .first .anh {
+  width: 38%;
+}
+.recommendation .container .list .first .desc {
+  flex: 60%;
+  background-color: var(--bg-2);
+  padding: 0 20px;
+  position: relative;
+}
+.recommendation .container .list .first .desc h2 {
+  margin: 0 0;
+  font-size: 48px;
+  color: white;
+  font-weight: 500;
+}
+.recommendation .container .list .first .desc h3 {
+  font-size: 20px;
+  color: #2d3c49;
+}
+.recommendation .container .list .first .desc ul {
+  display: flex;
+  list-style: none;
+  padding: 0 0;
+  margin: 35px 0;
+}
+.recommendation .container .list .first .desc ul li {
+  margin-right: 10px;
+  font-size: 50px;
+  color: gray;
+}
+.recommendation .container .list .first .desc ul li:last-child {
+  position: relative;
+  left: 68%;
+  color: white;
+}
+/* thu 2 */
+.recommendation .container .list .second {
+  display: flex;
+  margin: 30px 0;
+}
+.recommendation .container .list .second img {
+  border-radius: 20px 0px 0px 20px;
+}
+.recommendation .container .list .second .anh {
+  width: 38%;
+}
+.recommendation .container .list .second .desc {
+  flex: 60%;
+  background-color: var(--bg-2);
+  padding: 0 20px;
+  position: relative;
+}
+.recommendation .container .list .second .desc h2 {
+  margin: 0 0;
+  font-size: 48px;
+  color: white;
+  font-weight: 500;
+}
+.recommendation .container .list .second .desc h3 {
+  font-size: 20px;
+  color: #2d3c49;
+}
+.recommendation .container .list .second .desc ul {
+  display: flex;
+  list-style: none;
+  padding: 0 0;
+  margin: 35px 0;
+}
+.recommendation .container .list .second .desc ul li {
+  margin-right: 10px;
+  font-size: 50px;
+  color: gray;
+}
+.recommendation .container .list .second .desc ul li:last-child {
+  position: relative;
+  left: 68%;
+  color: white;
+}
+/* thu 3 */
+.recommendation .container .list .three {
+  display: flex;
+  margin: 30px 0;
+}
+.recommendation .container .list .three img {
+  border-radius: 20px 0px 0px 20px;
+}
+.recommendation .container .list .three .anh {
+  width: 38%;
+}
+.recommendation .container .list .three .desc {
+  flex: 60%;
+  background-color: var(--bg-2);
+  padding: 0 20px;
+  position: relative;
+}
+.recommendation .container .list .three .desc h2 {
+  margin: 0 0;
+  font-size: 48px;
+  color: white;
+  font-weight: 500;
+}
+.recommendation .container .list .three .desc h3 {
+  font-size: 20px;
+  color: #2d3c49;
+}
+.recommendation .container .list .three .desc ul {
+  display: flex;
+  list-style: none;
+  padding: 0 0;
+  margin: 35px 0;
+}
+.recommendation .container .list .three .desc ul li {
+  margin-right: 10px;
+  font-size: 50px;
+  color: gray;
+}
+.recommendation .container .list .three .desc ul li:last-child {
+  position: relative;
+  left: 68%;
+  color: white;
+}
+/* .sec1 .game .game2 {
+  margin-left: 500px;
+}
+.sec1 .game .game2 img {
+  border-radius: 20px;
+}
+.sec1 .game .game1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sec1 .game .game1 h2,
+button {
+  width: 80%;
+}
+.sec1 .game .game1 h2 {
+  margin: 0 0;
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+}
+.sec1 .game .game1 button {
+  background-color: rgba(0, 0, 0, 0.274);
+  border: 0;
+  margin: 0 0;
+}
+.sec1 .game .game1 buttona {
+  text-decoration: none;
+}
+.sec1 .game .game1 button span {
+} */
